@@ -1,0 +1,49 @@
+html, body, ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    background: white;
+    min-width: 1200px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-shadow: 0 5px 10px 0 #cfcfcf;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    padding: 20px 0;
+}
+
+.main-menu .menu-link {
+    justify-content: flex-start;
+    margin: 0 60px;
+}
+
+.main-menu a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-menu img {
+    margin-top: -20px;
+}
