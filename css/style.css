@@ -1,49 +1,257 @@
-html, body, ul {
+body {
     margin: 0;
     padding: 0;
     width: 100%;
-}
-
-body {
+    background-color: #ffffff;
     font-family: 'PT Sans', sans-serif;
-    font-weight: 400;
-    color: #000;
-    background: white;
-    min-width: 1200px;
+    text-transform: uppercase;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    clip: rect(0, 0, 0, 0);
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h2 {
+    color: #000000;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0;
 }
 
 .container {
-    width: 1160px;
+    width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-    box-shadow: 0 5px 10px 0 #cfcfcf;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.main-header {
+    background: url("../img/bg.jpg");
+    min-height: 564px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .main-menu {
-    list-style: none;
     display: flex;
-    padding: 20px 0;
+    justify-content: space-between;
+    background-color: #fff;
 }
 
-.main-menu .menu-link {
-    justify-content: flex-start;
-    margin: 0 60px;
+.menu-link {
+    padding: 20px 60px;
 }
 
-.main-menu a {
-    color: #000;
-    text-transform: uppercase;
+.menu-link a {
+    color: #000000;
     text-decoration: none;
     font-weight: 700;
 }
 
-.main-menu img {
-    margin-top: -20px;
+.logo {
+    position: absolute;
+    top: 0;
+    left: 275px;
 }
+
+.sedona-advantages {
+    width: 560px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.reason-block-1 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.reason-text {
+    width: 400px;
+    text-align: center;
+    padding: 50px 60px;
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.reason-text h2 {
+    color: #ffffff;
+}
+
+.advantages {
+    display: flex;
+    text-align: center;
+    padding: 0 70px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.advantage-block div {
+    width: 300px;
+}
+
+.reason-block-2 {
+    display: flex;
+}
+
+.reason-block {
+    padding: 50px 70px;
+    background-color: #eeeeee;
+}
+
+.reason-block div {
+    width: 300px;
+}
+
+.title-for-form {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.form {
+    width: 575px;
+    position: absolute;
+    top: -67px;
+    left: 320px;
+    z-index: 3;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+form {
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #766357;
+    padding: 20px 0;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+label {
+    text-align: left;
+    margin-right: 8px;
+}
+
+.input-wrapper {
+    display: flex;
+}
+
+.input-wrapper-1,
+.input-wrapper-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.input-wrapper input {
+    width: 120px;
+}
+
+.find {
+    border: none;
+    color: #fff;
+    background-color: #81b3d2;
+    width: 460px;
+    padding: 15px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.main-footer {
+    position: relative;
+}
+
+.map iframe {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 593px;
+    border: none;
+}
+
+.footer-wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px;
+    position: absolute;
+    bottom: 4px;
+    z-index: 30;
+    width: 1060px;
+}
+
+.visit {
+    width: 240px;
+    text-align: center;
+}
+
+
+.soc-net {
+     display: flex;
+}
+
+.soc-net a {
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #81b3d2;
+    position: relative;
+}
+
+.soc-net a::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.twitter::before {
+    background: url("../img/twitter.svg") no-repeat;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+
+.facebook::before {
+    background: url("../img/fb-icon.svg") no-repeat;
+    position: absolute;
+    top: 14px;
+    left: 18px;
+}
+
+.youtube::before {
+    background: url("../img/youtube.svg") no-repeat;
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+
+.developed-by {
+    display: flex;
+    width: 230px;
+}
+
+.developed-by p {
+    margin-right: 5px;
+}
+
