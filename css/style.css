@@ -30,36 +30,51 @@ h2 {
     background: url("../img/bg.jpg");
     min-height: 564px;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .main-menu {
     display: flex;
-    justify-content: space-between;
     background-color: #fff;
 }
 
 .menu-link {
-    padding: 20px 60px;
+    padding: 18px 73px;
 }
 
 .menu-link a {
+    font-size: 14px;
     color: #000000;
     text-decoration: none;
     font-weight: 700;
 }
 
+.menu-link:nth-child(2) {
+    padding-right: 315px;
+}
+
+.menu-link:nth-child(4) {
+    padding-right: 91px;
+}
+
 .logo {
     position: absolute;
-    top: 0;
-    left: 275px;
+    left: 266px;
 }
 
 .sedona-advantages {
     width: 560px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 55px;
+}
+
+.sedona-advantages h2 {
+    margin-bottom: 28px;
+}
+
+.sedona-advantages p {
+    font-size: 14px;
 }
 
 .reason-block-1 {
@@ -68,35 +83,105 @@ h2 {
 }
 
 .reason-text {
-    width: 400px;
+    width: 280px;
     text-align: center;
-    padding: 50px 60px;
+    padding: 48px 60px;
     background-color: #81b3d2;
     color: #ffffff;
 }
 
 .reason-text h2 {
     color: #ffffff;
+    line-height: 20px;
+    width: 125px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+.reason-text span {
+    font-size: 14px;
+}
+
+.reason-text p {
+    font-size: 14px;
+    margin-top: 26px;
+    margin-left: -10px;
+    width: 300px;
 }
 
 .advantages {
     display: flex;
     text-align: center;
-    padding: 0 70px;
+    padding: 10px 50px;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 59px;
+}
+
+.advantages.reason-block{
+    padding-bottom: 40px;
+}
+
+.advantages.reason-block div h2 {
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+.advantages.reason-block div p {
+     font-size: 14px;
+    width: 284px;
+    margin-top: 23px;
 }
 
 .advantage-block div {
     width: 300px;
 }
 
+.advantage-block div img {
+    margin-bottom: 22px;
+}
+
+.advantage-block div h2 {
+    margin-bottom: 22px;
+}
+
+.advantage-block div p {
+    font-size: 14px;
+
+}
+
 .reason-block-2 {
     display: flex;
 }
 
+.reason-text-2 {
+    width: 280px;
+    text-align: center;
+    padding: 47px 60px;
+    background-color: #81b3d2;
+    color: #ffffff;
+}
+
+.reason-text-2 h2 {
+    color: #fff;
+    width: 151px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.reason-text-2 span {
+    font-size:  14px;
+}
+
+
+.reason-text-2 p {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-left: -10px;
+    width: 305px;
+}
+
 .reason-block {
-    padding: 50px 70px;
+    padding: 48px 49px;
     background-color: #eeeeee;
 }
 
@@ -109,6 +194,10 @@ h2 {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 100px;
+}
+
+.title-for-form h2 {
+    font-size: 30px;
 }
 
 .form {
